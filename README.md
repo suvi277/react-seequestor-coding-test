@@ -1,3 +1,5 @@
+Live demo of this app - https://react-seequestor-coding-test.herokuapp.com/
+
 # SeeQuestor Coding chalenge
 - This repositiory is a simple web application that renders a series of articles along with info about the author and comments in React App using given sample.json
 - Initially it loads first five articles from data and pagination is added to view other articles so that it renders seamlessly
