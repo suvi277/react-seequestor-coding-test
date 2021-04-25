@@ -1,4 +1,4 @@
-Live demo of this app - https://react-seequestor-coding-test.herokuapp.com/
+Live demo of this app is deployed on  https://react-seequestor-coding-test.herokuapp.com/
 
 # SeeQuestor Coding chalenge
 - This repositiory is a simple web application that renders a series of articles along with info about the author and comments in React App using given sample.json
