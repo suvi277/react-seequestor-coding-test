@@ -1,0 +1,21 @@
+{
+  "name": "run-node-app",
+  "version": "1.0.0",
+  "description": "- This repositiory is a simple web application that renders a series of articles along with info about the author and comments in React App using given sample.json - Initially it loads first five articles from data and pagination is added to view other articles so that it renders seamlessly - Each article will render `Show Comments (<no. of comments>)` action.  - Initially comments are hidden for each Comments - First three comments of each arcticle will be shown on click of `Show Comment` action of the particular Article. And Comments of other Articles will be hidden - If Comments length are more than three, then `Show More` action will appear.  - And next three comment will be rendered on click of `Show More` - On click of `Show More`, `Show Less` action will appear, to show less comments on click of the action",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "cd server && npm install && npm run start",
+    "build": "cd server && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suvi277/react-seequestor-coding-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suvi277/react-seequestor-coding-test/issues"
+  },
+  "homepage": "https://github.com/suvi277/react-seequestor-coding-test#readme"
+}

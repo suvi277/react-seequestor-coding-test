@@ -2,7 +2,7 @@
   "name": "node-pagination-example",
   "version": "1.0.0",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "build": "cd client && npm install && npm run build"
   },
   "dependencies": {
