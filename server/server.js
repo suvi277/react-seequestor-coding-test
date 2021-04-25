@@ -12,7 +12,7 @@ app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 const routes = require('./routes/routes.js')(app, fs);
 
-const server = app.listen(4000, () => {
+const server = app.listen(process.env.PORT || 4000, () => {
     console.log('listening on port %s...', server.address().port);
 });
 
